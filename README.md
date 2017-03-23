@@ -6,9 +6,9 @@ Manoa munchies is designed to reduce the time of deciding what to get and allow 
 ![landing-page](/doc/landing-page.png)
 
 ### User Login
-![user-login-page](/doc/user-login-page.png)
+![user-login-page](/doc/user-login-page.PNG)
 
 ### Admin Login
-![admin-login-page](/doc/admin-login-page.png)
+![admin-login-page](/doc/admin-login-page.PNG)
 
 
