@@ -9,6 +9,8 @@ import './home-page.html';
 import './admin-login-page.html';
 import './user-login-page.html';
 import './top-picks-page.html';
+import './user-feed-page.html';
+import './user-settings-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';

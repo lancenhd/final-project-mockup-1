@@ -50,6 +50,21 @@ FlowRouter.route('/top-picks', {
   },
 });
 
+FlowRouter.route('/your-feed', {
+  name: 'User_Feed_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Feed_Page' });
+  },
+});
+
+FlowRouter.route('/user-settings', {
+  name: 'User_Settings_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Settings_Page' });
+  },
+});
+
+
 FlowRouter.notFound = {
   action() {
     BlazeLayout.render('App_Body', { main: 'App_Not_Found' });
