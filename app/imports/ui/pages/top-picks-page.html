@@ -1,29 +1,40 @@
 <template name="Top_Picks_Page">
-  <div class="ui card">
-    <div class="image">
-      <img src="/images/default-image.png">
-    </div>
-    <div class="content">
-      <a class="header">Tasty food item</a>
-      <div class="description">
-        Kristy is an art director living in New York.
+  <div class="ui grid container" style="margin-top: 25px">
+    <div class="ui fluid card">
+      <div class="content">
+        <div class="ui two column grid container">
+          <div class="five wide column">
+            <a class="header">Tasty food item</a>
+            <div class="description">
+              Delicious yummy food found at yummy food cafe!
+            </div>
+          </div>
+          <div class="column container">
+            <img class="ui fluid image" src="/images/default-image.png">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="extra content">
-      <a>
-        <i class="user icon"></i>
-        22 Friends
-      </a>
-    </div>
-    <div class="extra content">
+      <div class="extra content">
     <span class="left floated like">
-      <i class="like icon"></i>
-      Like
+      Rating:
+      <div class="ui star rating" data-rating="4"></div>
     </span>
-      <span class="right floated star">
+        <span class="right floated star">
       <i class="star icon"></i>
       Favorite
     </span>
+      </div>
+    </div>
+  </div>
+  <div class="ui white horizontal divider" style="margin-top: 50px; margin-bottom: 50px;">Other picks</div>
+  <div class="ui two row three column grid container">
+    <div class="row">
+      <div class="column">
+
+      </div>
+    </div>
+    <div class="row">
+
     </div>
   </div>
 </template>
