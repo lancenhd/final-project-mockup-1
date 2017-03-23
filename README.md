@@ -11,4 +11,10 @@ Manoa munchies is designed to reduce the time of deciding what to get and allow 
 ### Admin Login
 ![admin-login-page](/doc/admin-login-page.PNG)
 
+### Top Picks
+![top-picks-page](/doc/top-picks-page.PNG)
+
+### Your feed
+![your-feed-page](/doc/your-feed-page.PNG)
+
 
